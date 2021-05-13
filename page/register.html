@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css" />
+    <link rel="stylesheet" href="" />
+</head>
+
+<body>
+    <span>Register Form</span>
+
+    <form action="" method="POST" id="create-form" name="register-form">
+        <div class="form-group">
+            <label>Account</label>
+            <input id="create-account" type="text" placeholder="Enter account name" />
+        </div>
+        <p id="account-message"></p>
+        <div class="form-group">
+            <label>Email</label>
+            <input id="create-email" type="email" placeholder="Enter email" />
+        </div>
+        <p id="email-message"></p>
+        <div class="form-group">
+            <label>Password</label>
+            <input id="create-password" type="password" placeholder="Enter password" />
+        </div>
+        <p id="password-message"></p>
+        <div class="form-group">
+            <label>Confirm password</label>
+            <input id="create-confirm-password" type="password" placeholder="Confirm password" />
+        </div>
+        <p id="confirm-password-message"></p>
+        <button id="create-btn">Create</button>
+        <p>
+            Do you have account?
+            <a href="login.html" class="create-link"> Login now !</a>
+        </p>
+    </form>
+</body>
+<script src="../js/register.js"></script>
+
+</html>

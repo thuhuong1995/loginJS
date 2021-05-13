@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+[id$="message"] {
+  margin: 10px 0;
+  color: red;
+}
+#create-form {
+  width: 300px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#btn-register {
+  margin-top: 20px;
+}
+.create-link {
+  margin-left: 4px;
+  color: red;
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+#login-form {
+  width: 280px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#btn-login {
+  margin-top: 20px;
+}
+#login-messages {
+  color: red;
+}
